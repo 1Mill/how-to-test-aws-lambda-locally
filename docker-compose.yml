@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  localstack:
+    image: localstack/localstack:2.0.1
+    environment:
+      LS_LOG: trace
+    ports:
+      - 4566:4566
