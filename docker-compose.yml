@@ -7,3 +7,5 @@ services:
       LS_LOG: trace
     ports:
       - 4566:4566
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
