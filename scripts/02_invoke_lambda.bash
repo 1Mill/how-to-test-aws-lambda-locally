@@ -9,7 +9,7 @@ function invoke_lambda() {
 	local function_name=hello-world-v0
 
 	# * Invoke configuration
-	local invoke_to_file=output.txt
+	local invoke_to_file=response.json
 	local invoke_type=RequestResponse
 
 	# * Invoke lambda from LocalStack
