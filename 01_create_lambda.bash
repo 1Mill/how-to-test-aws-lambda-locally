@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# ./01_create_lambda.bash
 set -e
 
 function create_lambda() {
