@@ -8,6 +8,6 @@
 1. Install `docker ~> 20.10`
 1. Install `docker-compose ~> 2.15`
 1. Run `docker compose up`
-1. Run `./scripts/01_create_lambda.bash`
-1. Run `./scripts/02_invoke_lambda.bash`
-1. Open `./output.txt`
+1. Run `./01_create_lambda.bash`
+1. Run `./02_invoke_lambda.bash`
+1. Open `./response.json`
