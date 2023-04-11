@@ -12,7 +12,7 @@ function create_lambda() {
 	# * Lambda configuration
 	local function_handler=index.handler
 	local function_name=hello-world-v0
-	local function_role=arn:aws:iam::000000000000:role/lambda-does-not-care
+	local function_role=arn:aws:iam::000000000000:role/localstack-does-not-care
 	local function_runtime=nodejs18.x
 
 	aws --endpoint-url $endpoint lambda delete-function --function-name $function_name || true
