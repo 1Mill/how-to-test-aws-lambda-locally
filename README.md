@@ -11,3 +11,4 @@
 1. Run `./01_create_lambda.bash`
 1. Run `./02_invoke_lambda.bash`
 1. Open `./response.json`
+1. Run `./03_delete_lambda.bash`
