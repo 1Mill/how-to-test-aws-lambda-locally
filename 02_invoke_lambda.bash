@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# ./02_invoke_lambda.bash
 set -e
 
 function invoke_lambda() {
